@@ -12,7 +12,7 @@ const Main = () => {
       <Routes>
         <Route path='/board/:index' element={<Board></Board>}></Route>
         <Route path='/list' element={<List></List>}></Route>
-        <Route path='write' element={<Write></Write>}></Route>
+        <Route path='/write' element={<Write></Write>}></Route>
       </Routes>
     </div>
   )
